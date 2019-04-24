@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Counter name"
+        android:padding="16dp"
+        android:gravity="center_horizontal"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="-"
+            android:textColor="#fff"
+            android:background="#2196F3"
+
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="123456"
+            android:padding="16dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="+"
+            android:gravity="center"
+            android:background="#2196F3"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
